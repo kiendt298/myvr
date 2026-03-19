@@ -137,8 +137,8 @@ export default function Contact() {
                 className="text-blue-600 mr-2"
                 style={{ width: "16px", height: "16px" }}
               />
-              MyVR Office - 168/22 Khu phố Bình Phước A, Phường An Phú, TP Hồ
-              Chí Minh
+              MyVR Office - 08 Đại Lộ Hữu Nghị, Thuận An, Bình Dương (Khu căn hộ
+              cao cấp The Habitat)
             </p>
             <p className="mb-2 flex items-center">
               <FontAwesomeIcon
@@ -337,7 +337,7 @@ export default function Contact() {
           <h2 className="text-2xl font-semibold mb-4 text-blue-700">Bản đồ</h2>
           <div className="w-full h-80 bg-gray-200 p-1 rounded-sm">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3181667040117!2d106.79929807480507!3d10.786925589362488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527aa521b18db%3A0xb3d935d966253b44!2zQ8SDbiBo4buZIENodW5nIEPGsCBSaWNjYQ!5e0!3m2!1sen!2s!4v1729573710113!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.513951915142!2d106.71132367617584!3d10.924495589233436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d704d26e00f5%3A0x35bcb93d851cef1e!2zTXlWUiAtIEzGsHUgZ2nhu68ga-G7tyBuaeG7h20gcXVhIGtow7RuZyBnaWFuIDNEIFRo4buxYyB04bq_IOG6o28!5e0!3m2!1svi!2s!4v1773943965797!5m2!1svi!2s"
               width="100%"
               height="100%"
               style={{ border: 0 }}
