@@ -1,6 +1,7 @@
 "use client";
 import ContactForm from "@/app/(common)/_components/Contacts/ContactForm";
 import DangerouslyInnerHtmlWrapper from "@/app/(common)/_components/Wrappers/DangerouslyInnerHtmlWrapper";
+import { useIsMobile } from "@/app/(common)/_hooks/use-mobile";
 import { VN_REWRITE_SEGMENT_URLS } from "@/app/(common)/_utils/rewrite-urls";
 import {
   MAIN_SERVICES,
@@ -23,6 +24,8 @@ export default function ServicesPage() {
   const handleClose = () => {
     setIsPopupOpen(false);
   };
+
+  const isMobile = useIsMobile();
 
   return (
     <>
@@ -76,23 +79,25 @@ export default function ServicesPage() {
                 } gap-8 bg-white p-8 rounded-lg`}
               >
                 <div className="w-full lg:w-1/2 aspect-video">
-                  {/* <iframe
-                    className="w-full rounded-lg"
-                    height={isMobile ? undefined : "315px"}
-                    src={service.videoSrc}
-                    title={service.subtitle}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                  ></iframe> */}
-
-                  <video
-                    src={service.videoSrc}
-                    poster={service.videoThumbnail}
-                    className="w-full object-cover"
-                    preload="none"
-                    controls
-                  />
+                  {service.youtubeSrc ? (
+                    <iframe
+                      className="w-full rounded-lg"
+                      height={isMobile ? undefined : "315px"}
+                      src={service.youtubeSrc}
+                      title={service.subtitle}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerPolicy="strict-origin-when-cross-origin"
+                      allowFullScreen
+                    ></iframe>
+                  ) : (
+                    <video
+                      src={service.videoSrc}
+                      poster={service.videoThumbnail}
+                      className="w-full object-cover"
+                      preload="none"
+                      controls
+                    />
+                  )}
 
                   <p className="font-semibold text-gray-400 mt-2 text-center">
                     {service.videoSrcTitle}

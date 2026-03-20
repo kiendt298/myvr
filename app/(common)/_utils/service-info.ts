@@ -71,12 +71,12 @@ export const BRIEF_SERVICES = [
     imgSrc: "/imgs/khoanh-khac-ben-gia-dinh-nguoi-than.jpg",
     postFixUrl: SERVICE_POSTFIX_URLS.FAMILY,
   },
-  {
-    id: "brief-service-4",
-    title: "Khám phá - Giới thiệu - Thương hiệu",
-    imgSrc: "/imgs/kham-pha-gioi-thieu.png",
-    postFixUrl: SERVICE_POSTFIX_URLS.BUSINESS,
-  },
+  // {
+  //   id: "brief-service-4",
+  //   title: "Khám phá - Giới thiệu - Thương hiệu",
+  //   imgSrc: "/imgs/kham-pha-gioi-thieu.png",
+  //   postFixUrl: SERVICE_POSTFIX_URLS.BUSINESS,
+  // },
 ];
 
 export const MAIN_SERVICES = [
@@ -97,9 +97,10 @@ export const MAIN_SERVICES = [
       Chúng tôi sẽ giúp bạn ghi lại <b class="text-orange-700">những giây phút cuối cùng quý giá</b>, biến kỷ niệm thành mãi mãi với thước phim 3D, mà dù sau này có bao nhiêu tiền bạn cũng <b class="text-orange-700">không mua lại được</b>. <br/>
       Bạn hoặc người thân sẽ cảm nhận được sự hiện diện của nhau một lần nữa, sống lại trong những khoảnh khắc tuyệt đẹp và đầy cảm xúc. <br/>
       Hãy để chúng tôi giúp bạn bảo tồn những ký ức đáng trân trọng nhất của cuộc đời bạn...`,
+    youtubeSrc: "https://www.youtube.com/embed/52vtguDb5-c?si=b2E7k8Iq0DOAiU-N",
     videoSrc: "/vids/bua_com_voi_nguoi_me_da_mat.mp4",
     videoThumbnail: "/imgs/bua_com_voi_nguoi_me_da_mat.png",
-    videoSrcTitle: "Bữa cơm với mẹ (đã mất)",
+    videoSrcTitle: "Lưu lại ký ức với Ông bà tuổi đã cao",
     postFixUrl: SERVICE_POSTFIX_URLS.SPEICAL,
     fullDescription: `
     <h4 class="text-xl text-center text-gray-500 mb-6"><b>Dịch Vụ Đặc Biệt Nhất: Lưu Giữ Những Ký Ức Cuối Cùng</b></h4>
@@ -219,9 +220,10 @@ export const MAIN_SERVICES = [
       Bằng cách lưu giữ những khoảnh khắc giản dị nhưng chân thành, bạn sẽ có thể <b class="text-orange-700">chia sẻ và truyền lại</b> 
       những giá trị yêu thương này <b class="text-orange-700">cho thế hệ mai sau</b>.  <br/>  
       Hãy để chúng tôi đồng hành cùng bạn trong hành trình này, để mỗi kỷ niệm đều trở thành một phần di sản quý giá.`,
+    youtubeSrc: "https://www.youtube.com/embed/-8vHG7ck40o?si=Wh_4v7BDPP2YAFWG",
     videoSrc: "/vids/nguoi_gia_thay_con_chau_o_xa_qua_kinh_vr.mp4",
     videoThumbnail: "/imgs/nguoi_gia_thay_con_chau_o_xa_qua_kinh_vr.png",
-    videoSrcTitle: `Ông bà "tận mắt" nhìn thấy con cháu ở xa`,
+    videoSrcTitle: `Sự kết nối vượt thời gian và không gian`,
     postFixUrl: SERVICE_POSTFIX_URLS.FAMILY,
     reverse: true,
     fullDescription: `<h4 class="text-xl text-center text-gray-500 mb-6">
@@ -349,9 +351,10 @@ export const MAIN_SERVICES = [
       <li>Sẽ là một <b class="text-orange-700">trải nghiệm kỳ diệu và lạ lùng</b>, giúp chúng thêm tự hào về tình yêu và tổ ấm của mình</li>
       <li>Khi được nhìn lại 1 bằng không gian 3D có gia đình nhỏ trong đó, con bạn sẽ biết rằng tình yêu của bạn dành cho chúng đã bắt đầu ngay từ những ngày đầu tiên của cuộc đời</li>
     </ul>`,
+    youtubeSrc: "",
     videoSrc: "/vids/nhin_lai_hanh_trinh_truong_thanh_cua_con.mp4",
     videoThumbnail: "/imgs/nhin_lai_hanh_trinh_truong_thanh_cua_con.png",
-    videoSrcTitle: "Lưu lại hành trình khôn lớn của con",
+    videoSrcTitle: `Lưu lại hành trình khôn lớn. Dành cho con "món quà" đặc biệt nhất`,
     postFixUrl: SERVICE_POSTFIX_URLS.LOVE,
     fullDescription: `
     <h4 class="text-xl text-center text-gray-500 mb-6">
@@ -460,191 +463,190 @@ export const MAIN_SERVICES = [
 
     `,
   },
-  {
-    id: 3,
-    mappingId: BRIEF_SERVICES.at(4)?.id,
-    title: "Giới Thiệu Sản Phẩm - Không Gian",
-    subtitle: "Chân Thực, Tin Cậy",
-    description: `Trong thế giới kinh doanh hiện đại, việc giới thiệu sản phẩm một cách sinh động và chân thực không chỉ là một lợi thế, mà còn là yếu tố quyết định. <br/> <br/>
-      <b>Bạn có thể là:</b>
-      <ul class="default-list">
-        <li>Một nhà phát triển bất động sản cần giới thiệu căn hộ mẫu hay khu biệt thự cao cấp với khách hàng quốc tế mà <b class="text-orange-700">không cần di chuyển</b>.</li>
-        <li>Một chủ sở hữu cửa hàng nội thất muốn khách hàng <b class="text-orange-700">hình dung rõ ràng</b> từng món đồ trong không gian thực tế của họ.</li>
-        <li>Một quản lý khách sạn hoặc resort cao cấp đang tìm cách đưa khách hàng <b class="text-orange-700">“tham quan trực tuyến”</b> các phòng nghỉ, tiện ích sang trọng trước khi đặt phòng.</li>
-        <li>Một doanh nghiệp cung cấp dịch vụ như spa, nhà hàng, hoặc trung tâm thể thao, cần giới thiệu không gian trải nghiệm trực tiếp mà không cần khách hàng phải đến tận nơi.</li>
-        <li>Một công ty tổ chức sự kiện muốn khách hàng <b class="text-orange-700">cảm nhận được quy mô và chất lượng</b> không gian tổ chức qua video thực tế ảo.</li>
-      </ul>
-      Những thước phim thực tế ảo không chỉ giúp khách hàng hiểu rõ hơn về sản phẩm mà còn tạo ra sự kết nối cảm xúc, <b class="text-orange-700">khơi gợi sự tò mò và thúc đẩy quyết định</b> mua hàng. 
-      Hãy để chúng tôi biến ý tưởng của bạn thành hiện thực và giúp bạn ghi điểm trong lòng khách hàng.`,
-    videoSrc: "/vids/kham_pha_khong_gian_qua_kinh_vr.mp4",
-    videoThumbnail: "/imgs/kham_pha_khong_gian_qua_kinh_vr.png",
-    videoSrcTitle: "Tự trải nghiệm không gian thực tế tại nhà",
-    postFixUrl: SERVICE_POSTFIX_URLS.BUSINESS,
-    reverse: true,
-    fullDescription: `
-    <h4 class="text-xl text-center text-gray-500 mb-6">
-      <b>Chân thực, tin cậy & gây ấn tượng</b>
-    </h4>
+  // {
+  //   id: 3,
+  //   mappingId: BRIEF_SERVICES.at(4)?.id,
+  //   title: "Giới Thiệu Sản Phẩm - Không Gian",
+  //   subtitle: "Chân Thực, Tin Cậy",
+  //   description: `Trong thế giới kinh doanh hiện đại, việc giới thiệu sản phẩm một cách sinh động và chân thực không chỉ là một lợi thế, mà còn là yếu tố quyết định. <br/> <br/>
+  //     <b>Bạn có thể là:</b>
+  //     <ul class="default-list">
+  //       <li>Một nhà phát triển bất động sản cần giới thiệu căn hộ mẫu hay khu biệt thự cao cấp với khách hàng quốc tế mà <b class="text-orange-700">không cần di chuyển</b>.</li>
+  //       <li>Một chủ sở hữu cửa hàng nội thất muốn khách hàng <b class="text-orange-700">hình dung rõ ràng</b> từng món đồ trong không gian thực tế của họ.</li>
+  //       <li>Một quản lý khách sạn hoặc resort cao cấp đang tìm cách đưa khách hàng <b class="text-orange-700">“tham quan trực tuyến”</b> các phòng nghỉ, tiện ích sang trọng trước khi đặt phòng.</li>
+  //       <li>Một doanh nghiệp cung cấp dịch vụ như spa, nhà hàng, hoặc trung tâm thể thao, cần giới thiệu không gian trải nghiệm trực tiếp mà không cần khách hàng phải đến tận nơi.</li>
+  //       <li>Một công ty tổ chức sự kiện muốn khách hàng <b class="text-orange-700">cảm nhận được quy mô và chất lượng</b> không gian tổ chức qua video thực tế ảo.</li>
+  //     </ul>
+  //     Những thước phim thực tế ảo không chỉ giúp khách hàng hiểu rõ hơn về sản phẩm mà còn tạo ra sự kết nối cảm xúc, <b class="text-orange-700">khơi gợi sự tò mò và thúc đẩy quyết định</b> mua hàng.
+  //     Hãy để chúng tôi biến ý tưởng của bạn thành hiện thực và giúp bạn ghi điểm trong lòng khách hàng.`,
+  //   videoSrc: "/vids/kham_pha_khong_gian_qua_kinh_vr.mp4",
+  //   videoThumbnail: "/imgs/kham_pha_khong_gian_qua_kinh_vr.png",
+  //   videoSrcTitle: "Tự trải nghiệm không gian thực tế tại nhà",
+  //   postFixUrl: SERVICE_POSTFIX_URLS.BUSINESS,
+  //   reverse: true,
+  //   fullDescription: `
+  //   <h4 class="text-xl text-center text-gray-500 mb-6">
+  //     <b>Chân thực, tin cậy & gây ấn tượng</b>
+  //   </h4>
 
-    <div class="full-description text-lg max-w-3xl mx-auto">
-    <p class="text-lg text-gray-700 leading-relaxed mb-6">
-      Trong thế giới kinh doanh hiện đại, việc giới thiệu sản phẩm một cách sinh động và chân thực <b class="text-orange-700">không chỉ là một lợi thế</b>, mà còn là <b class="text-orange-700">yếu tố quyết định</b>. <br/>
-      Dịch vụ <b>"Giới Thiệu Sản Phẩm - Không Gian"</b> của chúng tôi mang đến <b class="text-orange-700">giải pháp thực tế ảo 3D độc đáo</b>, giúp bạn tạo ấn tượng mạnh mẽ với khách hàng thông qua cách trình bày sản phẩm đầy sáng tạo và thuyết phục.
-    </p>
+  //   <div class="full-description text-lg max-w-3xl mx-auto">
+  //   <p class="text-lg text-gray-700 leading-relaxed mb-6">
+  //     Trong thế giới kinh doanh hiện đại, việc giới thiệu sản phẩm một cách sinh động và chân thực <b class="text-orange-700">không chỉ là một lợi thế</b>, mà còn là <b class="text-orange-700">yếu tố quyết định</b>. <br/>
+  //     Dịch vụ <b>"Giới Thiệu Sản Phẩm - Không Gian"</b> của chúng tôi mang đến <b class="text-orange-700">giải pháp thực tế ảo 3D độc đáo</b>, giúp bạn tạo ấn tượng mạnh mẽ với khách hàng thông qua cách trình bày sản phẩm đầy sáng tạo và thuyết phục.
+  //   </p>
 
-    <div class="flex justify-center py-6">
-      <img 
-        src="/imgs/kham_pha_khong_gian_vr.png" 
-        alt="Giới thiệu sản phẩm không gian" 
-        class="!w-full h-auto object-cover rounded-lg shadow-md"
-      >
-    </div>
+  //   <div class="flex justify-center py-6">
+  //     <img
+  //       src="/imgs/kham_pha_khong_gian_vr.png"
+  //       alt="Giới thiệu sản phẩm không gian"
+  //       class="!w-full h-auto object-cover rounded-lg shadow-md"
+  //     >
+  //   </div>
 
-    <p class="text-lg text-gray-700 leading-relaxed mb-6">
-      Từ những bất động sản cao cấp, nội thất hiện đại, đến các sản phẩm dịch vụ phong phú, chúng tôi giúp bạn biến từng chi tiết thành một <b class="text-orange-700">trải nghiệm trực quan và sống động</b>. 
-      <br/>
-      Những thước phim thực tế ảo không chỉ khơi gợi sự tò mò của khách hàng mà còn <b class="text-orange-700">truyền tải giá trị cốt lõi</b> của sản phẩm một cách hiệu quả, giúp họ hiểu rõ hơn về không gian và lợi ích mà sản phẩm mang lại.
-    </p>
-    <br/>
+  //   <p class="text-lg text-gray-700 leading-relaxed mb-6">
+  //     Từ những bất động sản cao cấp, nội thất hiện đại, đến các sản phẩm dịch vụ phong phú, chúng tôi giúp bạn biến từng chi tiết thành một <b class="text-orange-700">trải nghiệm trực quan và sống động</b>.
+  //     <br/>
+  //     Những thước phim thực tế ảo không chỉ khơi gợi sự tò mò của khách hàng mà còn <b class="text-orange-700">truyền tải giá trị cốt lõi</b> của sản phẩm một cách hiệu quả, giúp họ hiểu rõ hơn về không gian và lợi ích mà sản phẩm mang lại.
+  //   </p>
+  //   <br/>
 
-    <b>Bạn có thể là:</b>
-    <ul class="default-list">
-      <li>Một nhà phát triển bất động sản cần giới thiệu căn hộ mẫu hay khu biệt thự cao cấp với khách hàng quốc tế mà <b class="text-orange-700">không cần di chuyển</b>.</li>
-      <li>Một chủ sở hữu cửa hàng nội thất muốn khách hàng <b class="text-orange-700">hình dung rõ ràng</b> từng món đồ trong không gian thực tế của họ.</li>
-      <li>Một quản lý khách sạn hoặc resort cao cấp đang tìm cách đưa khách hàng <b class="text-orange-700">“tham quan trực tuyến”</b> các phòng nghỉ, tiện ích sang trọng trước khi đặt phòng.</li>
-      <li>Một doanh nghiệp cung cấp dịch vụ như spa, nhà hàng, hoặc trung tâm thể thao, cần giới thiệu không gian trải nghiệm trực tiếp mà không cần khách hàng phải đến tận nơi.</li>
-      <li>Một công ty tổ chức sự kiện muốn khách hàng <b class="text-orange-700">cảm nhận được quy mô và chất lượng</b> không gian tổ chức qua video thực tế ảo.</li>
-    </ul>
+  //   <b>Bạn có thể là:</b>
+  //   <ul class="default-list">
+  //     <li>Một nhà phát triển bất động sản cần giới thiệu căn hộ mẫu hay khu biệt thự cao cấp với khách hàng quốc tế mà <b class="text-orange-700">không cần di chuyển</b>.</li>
+  //     <li>Một chủ sở hữu cửa hàng nội thất muốn khách hàng <b class="text-orange-700">hình dung rõ ràng</b> từng món đồ trong không gian thực tế của họ.</li>
+  //     <li>Một quản lý khách sạn hoặc resort cao cấp đang tìm cách đưa khách hàng <b class="text-orange-700">“tham quan trực tuyến”</b> các phòng nghỉ, tiện ích sang trọng trước khi đặt phòng.</li>
+  //     <li>Một doanh nghiệp cung cấp dịch vụ như spa, nhà hàng, hoặc trung tâm thể thao, cần giới thiệu không gian trải nghiệm trực tiếp mà không cần khách hàng phải đến tận nơi.</li>
+  //     <li>Một công ty tổ chức sự kiện muốn khách hàng <b class="text-orange-700">cảm nhận được quy mô và chất lượng</b> không gian tổ chức qua video thực tế ảo.</li>
+  //   </ul>
 
-    <div class="video-container my-8 text-center">
-      <h4 class="text-xl !font-semibold text-gray-600 mb-4">
-       - Giới thiệu qua công nghệ thực tế ảo đem đến sự cạnh tranh cực kỳ lớn -
-      </h4>
-      <video
-        className="w-full"
-        controls
-        poster="/imgs/kham_pha_khong_gian_qua_kinh_vr.png"
-        src="/vids/kham_pha_khong_gian_qua_kinh_vr.mp4"
-        title="Video player"
-        loop
-        disablePictureInPicture
-      ></video>
-    </div>
+  //   <div class="video-container my-8 text-center">
+  //     <h4 class="text-xl !font-semibold text-gray-600 mb-4">
+  //      - Giới thiệu qua công nghệ thực tế ảo đem đến sự cạnh tranh cực kỳ lớn -
+  //     </h4>
+  //     <video
+  //       className="w-full"
+  //       controls
+  //       poster="/imgs/kham_pha_khong_gian_qua_kinh_vr.png"
+  //       src="/vids/kham_pha_khong_gian_qua_kinh_vr.mp4"
+  //       title="Video player"
+  //       loop
+  //       disablePictureInPicture
+  //     ></video>
+  //   </div>
 
-    <div class="p-4 bg-background bg-[#913e1f17] my-2 text-gray-500">
-      Điểm đặc biệt của dịch vụ của chúng tôi chính là khả năng kết nối cảm xúc. <br/>
-      Khi khách hàng được “bước vào” không gian sản phẩm thông qua video 3D, họ không chỉ nhìn thấy mà còn cảm nhận được sự chân thực và đẳng cấp.  <br/>
-      Điều này sẽ là yếu tố thúc đẩy quyết định mua hàng, tạo lòng tin và giúp doanh nghiệp của bạn nổi bật hơn trên thị trường cạnh tranh khốc liệt.
-    </div>
+  //   <div class="p-4 bg-background bg-[#913e1f17] my-2 text-gray-500">
+  //     Điểm đặc biệt của dịch vụ của chúng tôi chính là khả năng kết nối cảm xúc. <br/>
+  //     Khi khách hàng được “bước vào” không gian sản phẩm thông qua video 3D, họ không chỉ nhìn thấy mà còn cảm nhận được sự chân thực và đẳng cấp.  <br/>
+  //     Điều này sẽ là yếu tố thúc đẩy quyết định mua hàng, tạo lòng tin và giúp doanh nghiệp của bạn nổi bật hơn trên thị trường cạnh tranh khốc liệt.
+  //   </div>
 
+  //   <hr class="my-8"/>
 
-    <hr class="my-8"/>
+  //   <h3>HÃY ĐỂ <span class="font-extrabold text-2xl !text-gray-500">MYVR</span> GIÚP BẠN!</h3>
+  //   <ul class="default-list">
+  //     <li>MyVR tự hào là đội ngũ <b class="text-orange-700">đầu tiên và duy nhất</b> tại Việt Nam chuyên dựng video 3D thực tế ảo bằng thiết bị hiện đại, chuyên nghiệp. </li>
+  //     <li>Chúng tôi mang đến cơ hội lưu giữ những thước phim giới thiệu siêu chân thực mà <b class="text-orange-700">các nền tảng video thông thường không thể đem lại</b>. </li>
+  //     <li>Khi xem qua kính VR, khách hàng của bạn sẽ ngạc nhiên vì trong vô thức, họ không nhận ra mình đang "xem", thay vì đó cảm giác giống như đang "sống",  "trải nghiệm" và hòa vào không gian chính nơi đó. </li>
+  //     <li>Và dù bạn ở bất kỳ nơi đâu, MyVR luôn sẵn sàng đồng hành và có mặt trên mọi miền tổ quốc!</li>
+  //   </ul>
 
-    <h3>HÃY ĐỂ <span class="font-extrabold text-2xl !text-gray-500">MYVR</span> GIÚP BẠN!</h3>
-    <ul class="default-list">
-      <li>MyVR tự hào là đội ngũ <b class="text-orange-700">đầu tiên và duy nhất</b> tại Việt Nam chuyên dựng video 3D thực tế ảo bằng thiết bị hiện đại, chuyên nghiệp. </li>
-      <li>Chúng tôi mang đến cơ hội lưu giữ những thước phim giới thiệu siêu chân thực mà <b class="text-orange-700">các nền tảng video thông thường không thể đem lại</b>. </li>
-      <li>Khi xem qua kính VR, khách hàng của bạn sẽ ngạc nhiên vì trong vô thức, họ không nhận ra mình đang "xem", thay vì đó cảm giác giống như đang "sống",  "trải nghiệm" và hòa vào không gian chính nơi đó. </li>
-      <li>Và dù bạn ở bất kỳ nơi đâu, MyVR luôn sẵn sàng đồng hành và có mặt trên mọi miền tổ quốc!</li>
-    </ul>
+  //   <div class="mt-4 mb-16 text-center">
+  //   <a href="/lien-he" target="_blank"><span class="bg-[#069a2b] hover:bg-[#0d9b31] font-semibold !text-white px-8 py-3 rounded transition duration-300 animate-fadeInUp">LIÊN HỆ MYVR</span></a>
+  //   </div>
 
-    <div class="mt-4 mb-16 text-center">
-    <a href="/lien-he" target="_blank"><span class="bg-[#069a2b] hover:bg-[#0d9b31] font-semibold !text-white px-8 py-3 rounded transition duration-300 animate-fadeInUp">LIÊN HỆ MYVR</span></a>
-    </div>
+  //   <p class="text-lg text-gray-700 leading-relaxed mb-6">
+  //     Chúng tôi hiểu rằng mỗi sản phẩm đều mang một câu chuyện riêng. Với công nghệ thực tế ảo, <b>MYVR</b> sẽ giúp bạn truyền tải những câu chuyện ấy một cách sáng tạo và trọn vẹn nhất.
+  //     Hãy để chúng tôi đồng hành cùng bạn trong hành trình gây ấn tượng với khách hàng, tạo dựng niềm tin và nâng cao giá trị thương hiệu.
+  //   </p>
+  // </div>
 
-    <p class="text-lg text-gray-700 leading-relaxed mb-6">
-      Chúng tôi hiểu rằng mỗi sản phẩm đều mang một câu chuyện riêng. Với công nghệ thực tế ảo, <b>MYVR</b> sẽ giúp bạn truyền tải những câu chuyện ấy một cách sáng tạo và trọn vẹn nhất. 
-      Hãy để chúng tôi đồng hành cùng bạn trong hành trình gây ấn tượng với khách hàng, tạo dựng niềm tin và nâng cao giá trị thương hiệu.
-    </p>
-  </div>
+  //   `,
+  // },
+  // {
+  //   id: 4,
+  //   mappingId: BRIEF_SERVICES.at(0)?.id,
+  //   title: "Quay theo yêu cầu",
+  //   subtitle: "Linh Hoạt, Độc Đáo",
+  //   description: `Chúng tôi hiểu rằng mỗi câu chuyện, mỗi khoảnh khắc đều mang ý nghĩa riêng biệt.
+  //     Với dịch vụ quay theo yêu cầu, bạn có thể tự do sáng tạo và thiết kế nội dung theo mong muốn của mình.
+  //     Dù là một buổi tiệc, một sự kiện đặc biệt, hay chỉ đơn giản là những giây phút đời thường đầy ý nghĩa, chúng tôi sẽ giúp bạn biến ý tưởng thành hiện thực.
+  //     Với công nghệ 3D thực tế ảo, mọi chi tiết đều được tái hiện chân thực, giúp bạn lưu giữ những ký ức theo cách hoàn hảo nhất.`,
+  //   videoSrc: "/vids/ghi_lai_nhung_khoanh_khac_y_nghia.mp4",
+  //   videoThumbnail: "/imgs/ghi_lai_nhung_khoanh_khac_y_nghia.png",
+  //   videoSrcTitle: "Lưu lại bất kỳ khoảnh khắc nào ý nghĩa đối với bạn",
+  //   postFixUrl: SERVICE_POSTFIX_URLS.RANDOM,
+  //   fullDescription: `
+  //   <h4 class="text-xl text-center text-gray-500 mb-6">
+  //     <b>Quay theo yêu cầu - Linh Hoạt, Độc Đáo</b>
+  //   </h4>
 
-    `,
-  },
-  {
-    id: 4,
-    mappingId: BRIEF_SERVICES.at(0)?.id,
-    title: "Quay theo yêu cầu",
-    subtitle: "Linh Hoạt, Độc Đáo",
-    description: `Chúng tôi hiểu rằng mỗi câu chuyện, mỗi khoảnh khắc đều mang ý nghĩa riêng biệt. 
-      Với dịch vụ quay theo yêu cầu, bạn có thể tự do sáng tạo và thiết kế nội dung theo mong muốn của mình. 
-      Dù là một buổi tiệc, một sự kiện đặc biệt, hay chỉ đơn giản là những giây phút đời thường đầy ý nghĩa, chúng tôi sẽ giúp bạn biến ý tưởng thành hiện thực. 
-      Với công nghệ 3D thực tế ảo, mọi chi tiết đều được tái hiện chân thực, giúp bạn lưu giữ những ký ức theo cách hoàn hảo nhất.`,
-    videoSrc: "/vids/ghi_lai_nhung_khoanh_khac_y_nghia.mp4",
-    videoThumbnail: "/imgs/ghi_lai_nhung_khoanh_khac_y_nghia.png",
-    videoSrcTitle: "Lưu lại bất kỳ khoảnh khắc nào ý nghĩa đối với bạn",
-    postFixUrl: SERVICE_POSTFIX_URLS.RANDOM,
-    fullDescription: `
-    <h4 class="text-xl text-center text-gray-500 mb-6">
-      <b>Quay theo yêu cầu - Linh Hoạt, Độc Đáo</b>
-    </h4>
+  //   <div class="full-description text-lg max-w-3xl mx-auto">
+  //     <p class="text-lg text-gray-700 leading-relaxed mb-6">
+  //       Chúng tôi hiểu rằng mỗi khoảnh khắc trong cuộc sống đều mang những giá trị riêng và đáng để lưu giữ. <br/>
+  //       Với dịch vụ <b>Quay theo yêu cầu</b>, bạn có thể thoải mái sáng tạo, chia sẻ ý tưởng, và chúng tôi sẽ giúp bạn biến chúng thành hiện thực theo cách chân thực và độc đáo nhất.
+  //     </p>
 
-    <div class="full-description text-lg max-w-3xl mx-auto">
-      <p class="text-lg text-gray-700 leading-relaxed mb-6">
-        Chúng tôi hiểu rằng mỗi khoảnh khắc trong cuộc sống đều mang những giá trị riêng và đáng để lưu giữ. <br/>
-        Với dịch vụ <b>Quay theo yêu cầu</b>, bạn có thể thoải mái sáng tạo, chia sẻ ý tưởng, và chúng tôi sẽ giúp bạn biến chúng thành hiện thực theo cách chân thực và độc đáo nhất.
-      </p>
+  //     <div class="flex justify-center py-6">
+  //       <img
+  //         src="/imgs/quay_vr_theo_yeu_cau.png"
+  //         alt="Quay theo yêu cầu"
+  //         class="xl:!w-90 xl:h-auto w-full aspect-video object-cover rounded-lg shadow-md"
+  //       >
+  //     </div>
+  //     <b>Dù đó là:</b>
+  //     <ul class="default-list">
+  //       <li>Một buổi tiệc sinh nhật giản dị.</li>
+  //       <li>Một lễ kỷ niệm mừng ngày tốt nghiệp hoặc tất niên cuối năm.</li>
+  //       <li>Một dịp cầu hôn bất ngờ, hay 1 buổi tối hẹn hò nhẹ nhàng, lãng mạn</li>
+  //       <li>....</li>
+  //     </ul>
 
-      <div class="flex justify-center py-6">
-        <img 
-          src="/imgs/quay_vr_theo_yeu_cau.png" 
-          alt="Quay theo yêu cầu" 
-          class="xl:!w-90 xl:h-auto w-full aspect-video object-cover rounded-lg shadow-md"
-        >
-      </div>
-      <b>Dù đó là:</b>
-      <ul class="default-list">
-        <li>Một buổi tiệc sinh nhật giản dị.</li>
-        <li>Một lễ kỷ niệm mừng ngày tốt nghiệp hoặc tất niên cuối năm.</li>
-        <li>Một dịp cầu hôn bất ngờ, hay 1 buổi tối hẹn hò nhẹ nhàng, lãng mạn</li>
-        <li>....</li>
-      </ul>
+  //     <p class="text-lg text-gray-700 leading-relaxed mb-6">
+  //       Công nghệ 3D thực tế ảo của chúng tôi tái hiện một cách sống động từng chi tiết nhỏ nhất, từ ánh sáng, không gian, cho đến cảm xúc trong từng thước phim. <br/>
+  //       Hãy để mọi khoảnh khắc quý giá trở nên ý nghĩa, được lưu giữ qua lăng kính hiện đại và tinh tế nhất.
+  //     </p>
 
-      <p class="text-lg text-gray-700 leading-relaxed mb-6">
-        Công nghệ 3D thực tế ảo của chúng tôi tái hiện một cách sống động từng chi tiết nhỏ nhất, từ ánh sáng, không gian, cho đến cảm xúc trong từng thước phim. <br/>
-        Hãy để mọi khoảnh khắc quý giá trở nên ý nghĩa, được lưu giữ qua lăng kính hiện đại và tinh tế nhất.
-      </p>
+  //     <div class="video-container my-8 text-center">
+  //       <h4 class="text-2xl font-semibold text-gray-800 mb-4">
+  //         Tận hưởng trải nghiệm độc đáo:
+  //       </h4>
+  //     <video
+  //       className="w-full"
+  //       controls
+  //       poster="/imgs/ghi_lai_nhung_khoanh_khac_y_nghia.png"
+  //       src="/vids/ghi_lai_nhung_khoanh_khac_y_nghia.mp4"
+  //       title="Video player"
+  //       loop
+  //       disablePictureInPicture
+  //     ></video>
+  //     </div>
 
-      <div class="video-container my-8 text-center">
-        <h4 class="text-2xl font-semibold text-gray-800 mb-4">
-          Tận hưởng trải nghiệm độc đáo:
-        </h4>
-      <video
-        className="w-full"
-        controls
-        poster="/imgs/ghi_lai_nhung_khoanh_khac_y_nghia.png"
-        src="/vids/ghi_lai_nhung_khoanh_khac_y_nghia.mp4"
-        title="Video player"
-        loop
-        disablePictureInPicture
-      ></video>
-      </div>
+  //     <p class="text-lg text-gray-700 leading-relaxed mb-6">
+  //       Điểm mạnh của dịch vụ <b>Quay theo yêu cầu</b> nằm ở sự linh hoạt. <br/>
+  //       Bạn có thể lựa chọn bối cảnh, góc quay, phong cách trình bày, và nội dung phù hợp nhất với nhu cầu. Dịch vụ của chúng tôi không chỉ giúp bạn ghi lại ký ức mà còn truyền tải cảm xúc, câu chuyện của bạn một cách chân thực nhất.
+  //     </p>
 
-      <p class="text-lg text-gray-700 leading-relaxed mb-6">
-        Điểm mạnh của dịch vụ <b>Quay theo yêu cầu</b> nằm ở sự linh hoạt. <br/>
-        Bạn có thể lựa chọn bối cảnh, góc quay, phong cách trình bày, và nội dung phù hợp nhất với nhu cầu. Dịch vụ của chúng tôi không chỉ giúp bạn ghi lại ký ức mà còn truyền tải cảm xúc, câu chuyện của bạn một cách chân thực nhất. 
-      </p>
-      
-      <hr class="my-8"/>
+  //     <hr class="my-8"/>
 
-      <h3>HÃY ĐỂ <span class="font-extrabold text-2xl !text-gray-500">MYVR</span> GIÚP BẠN!</h3>
-      <ul class="default-list">
-        <li>MyVR tự hào là đội ngũ <b class="text-orange-700">đầu tiên và duy nhất</b> tại Việt Nam chuyên dựng video 3D thực tế ảo bằng thiết bị hiện đại, chuyên nghiệp. </li>
-        <li>Chúng tôi mang đến cơ hội lưu giữ những thước phim giới thiệu siêu chân thực mà <b class="text-orange-700">các nền tảng video thông thường không thể đem lại</b>. </li>
-        <li>Khi xem qua kính VR, khách hàng của bạn sẽ ngạc nhiên vì trong vô thức, họ không nhận ra mình đang "xem", thay vì đó cảm giác giống như đang "sống",  "trải nghiệm" và hòa vào không gian chính nơi đó. </li>
-        <li>Và dù bạn ở bất kỳ nơi đâu, MyVR luôn sẵn sàng đồng hành và có mặt trên mọi miền tổ quốc!</li>
-      </ul>
+  //     <h3>HÃY ĐỂ <span class="font-extrabold text-2xl !text-gray-500">MYVR</span> GIÚP BẠN!</h3>
+  //     <ul class="default-list">
+  //       <li>MyVR tự hào là đội ngũ <b class="text-orange-700">đầu tiên và duy nhất</b> tại Việt Nam chuyên dựng video 3D thực tế ảo bằng thiết bị hiện đại, chuyên nghiệp. </li>
+  //       <li>Chúng tôi mang đến cơ hội lưu giữ những thước phim giới thiệu siêu chân thực mà <b class="text-orange-700">các nền tảng video thông thường không thể đem lại</b>. </li>
+  //       <li>Khi xem qua kính VR, khách hàng của bạn sẽ ngạc nhiên vì trong vô thức, họ không nhận ra mình đang "xem", thay vì đó cảm giác giống như đang "sống",  "trải nghiệm" và hòa vào không gian chính nơi đó. </li>
+  //       <li>Và dù bạn ở bất kỳ nơi đâu, MyVR luôn sẵn sàng đồng hành và có mặt trên mọi miền tổ quốc!</li>
+  //     </ul>
 
-      <div class="mt-4 mb-16 text-center">
-      <a href="/lien-he" target="_blank"><span class="bg-[#069a2b] hover:bg-[#0d9b31] font-semibold !text-white px-8 py-3 rounded transition duration-300 animate-fadeInUp">LIÊN HỆ MYVR</span></a>
-      </div>
+  //     <div class="mt-4 mb-16 text-center">
+  //     <a href="/lien-he" target="_blank"><span class="bg-[#069a2b] hover:bg-[#0d9b31] font-semibold !text-white px-8 py-3 rounded transition duration-300 animate-fadeInUp">LIÊN HỆ MYVR</span></a>
+  //     </div>
 
-      <p class="text-lg text-gray-700 leading-relaxed mb-6">
-        Hãy thử tưởng tượng: một ngày nào đó, khi bạn xem lại những khoảnh khắc ấy, tất cả kỷ niệm sẽ hiện ra rõ ràng như thể thời gian chưa từng trôi qua. Chúng tôi cam kết mang lại cho bạn những sản phẩm chất lượng nhất, không chỉ là video mà còn là cách để lưu giữ câu chuyện và cảm xúc mãi mãi.
-      </p>
-    </div>
+  //     <p class="text-lg text-gray-700 leading-relaxed mb-6">
+  //       Hãy thử tưởng tượng: một ngày nào đó, khi bạn xem lại những khoảnh khắc ấy, tất cả kỷ niệm sẽ hiện ra rõ ràng như thể thời gian chưa từng trôi qua. Chúng tôi cam kết mang lại cho bạn những sản phẩm chất lượng nhất, không chỉ là video mà còn là cách để lưu giữ câu chuyện và cảm xúc mãi mãi.
+  //     </p>
+  //   </div>
 
-    `,
-  },
+  //   `,
+  // },
 ];
 
 export const isSlugInServicePostfixUrls = (value: string): boolean => {
