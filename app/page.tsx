@@ -69,7 +69,7 @@ export default function Home() {
           <div className="lg:w-1/2">
             <iframe
               className="w-full rounded-lg aspect-video"
-              src="https://www.youtube.com/embed/5sSOFcgZ-M8?si=XTqE9N3aJsXlGjZ_"
+              src="https://www.youtube.com/embed/WDLEjh70vOM?si=iR7j9WhzmwwvM3p-"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
@@ -213,7 +213,7 @@ export default function Home() {
           <iframe
             className="xl:w-1/4 md:max-xl:mx-auto rounded-lg aspect-video"
             height={isMobile ? undefined : "220px"}
-            src="https://www.youtube.com/embed/uu9bldsuK8g?si=mz0W1SfzDFHMBwd0"
+            src="https://www.youtube.com/embed/WDLEjh70vOM?si=iR7j9WhzmwwvM3p-"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
