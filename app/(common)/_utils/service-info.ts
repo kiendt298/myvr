@@ -300,32 +300,59 @@ export const MAIN_SERVICES = [
     title: "Kỷ niệm vô giá với ông bà, cha mẹ",
     subtitle: "Những khoảnh khắc vượt thời gian & thế hệ",
     description: `
-      Cuộc sống vốn dĩ vô thường, không ai biết trước được khi nào chúng ta hoặc những người thân yêu của mình sẽ phải rời xa thế giới này... <br/><br/>
-      <b>Dịch vụ này dành riêng cho những hoàn cảnh đặc biệt:</b> <br/>
-      <ul class="default-list">
-        <li>Những người già sắp đi qua đoạn cuối của hành trình</li>
-        <li>Người vẫn tràn đầy sức sống nhưng phải đối mặt với căn bệnh hiểm nghèo</li>
-        <li>Các em bé nhỏ, dù tuổi đời ngắn ngủi nhưng sắp phải "rời xa" vòng tay cha mẹ</li>
-        <li>...</li>
-      </ul>
-      Chúng tôi sẽ giúp bạn ghi lại <b class="text-orange-700">những giây phút cuối cùng quý giá</b>, biến kỷ niệm thành mãi mãi với thước phim 3D, mà dù sau này có bao nhiêu tiền bạn cũng <b class="text-orange-700">không mua lại được</b>. <br/>
-      Bạn hoặc người thân sẽ cảm nhận được sự hiện diện của nhau một lần nữa, sống lại trong những khoảnh khắc tuyệt đẹp và đầy cảm xúc. <br/>
-      Hãy để chúng tôi giúp bạn bảo tồn những ký ức đáng trân trọng nhất của cuộc đời bạn...`,
+      <b>Có những cái ôm… con cháu sẽ không bao giờ kịp nhớ.</b>
+
+<p>Vì khi còn quá nhỏ, ông bà đã bắt đầu đi đến những chặng cuối của cuộc đời. </p>
+<br/>
+<p>Con vẫn cười, vẫn bi bô gọi… </p>
+  <ul class="default-list">
+      <li>Nhưng chưa đủ lớn để hiểu đó là ai. </li>
+      <li>Chưa đủ lâu để giữ lại một ký ức trọn vẹn. </li>
+    </ul>
+<p>
+<br/>
+<b>Và rồi một ngày, </b><br/>
+khi những đứa trẻ bắt đầu hiểu thế nào là yêu thương, là gia đình…  <br/>
+thì ông bà có thể đã không còn nữa.</p>
+<br/>      
+<b>Nhưng… có một cách để sự hiện diện ấy không biến mất.</b>
+
+<p>Không phải chỉ là "ghi lại" trong gia phả.<br/>
+Mà là giữ ông bà “ở lại” - theo cách chân thực nhất có thể.</p>
+<br/>
+
+<p><b style="color: #d35400;">Trong một không gian 3D sống động như đang ở ngay trước mắt</b></p>
+ <ul class="default-list">
+      <li>Nơi ông bà không chỉ là hình ảnh. Mà là <b>một con người đang hiện diện</b>...</li>
+      <li>Nơi một đứa trẻ của hiện tại… có thể ngồi cùng ông bà của quá khứ.</li>
+      <li>Nơi hai thế hệ, tưởng chừng không bao giờ có đủ thời gian để hiểu nhau -
+lại có thể ở cạnh nhau, trọn vẹn trong cùng một khoảnh khắc.</li>
+    </ul>
+    <br/>
+ <b>1 khoảnh khắc tương phùng vượt qua được nghịch cảnh của thời gian.</b>   
+`,
     youtubeSrc: "https://www.youtube.com/embed/52vtguDb5-c?si=b2E7k8Iq0DOAiU-N",
     videoSrc: "/vids/bua_com_voi_nguoi_me_da_mat.mp4",
     videoThumbnail: "/imgs/bua_com_voi_nguoi_me_da_mat.png",
     videoSrcTitle: "Lưu lại ký ức với Ông bà tuổi đã cao",
     postFixUrl: SERVICE_POSTFIX_URLS.SPEICAL,
     fullDescription: `
-    <h4 class="text-xl text-center text-gray-500 mb-6"><b>Dịch Vụ Đặc Biệt Nhất: Lưu Giữ Những Ký Ức Cuối Cùng</b></h4>
+    <h4 class="text-xl text-center text-gray-500 mb-6"><b>Khoảnh khắc tương phùng vượt qua được nghịch cảnh của thời gian</b></h4>
 
     <div class="full-description max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed">
-      <p class="mb-6">
-        Đối diện với cái chết, những điều còn lại không phải là vật chất, mà là những <b>ký ức</b>. 
-        <br />
-        Ký ức ấy không chỉ là <b class="text-orange-700">hành trang cho người ra đi</b>, 
-        mà còn là <b class="text-orange-700">món quà quý giá dành cho những người ở lại</b> – để họ cảm nhận được tình yêu thương, sự hiện diện, và giá trị của từng khoảnh khắc từng được sống cùng nhau.
-      </p>
+     <b>Có những cái ôm… con cháu sẽ không bao giờ kịp nhớ.</b>
+
+<p>Vì khi còn quá nhỏ, ông bà đã bắt đầu đi đến những chặng cuối của cuộc đời. </p> 
+<div class="p-4 bg-background bg-[#913e1f17] my-2 text-gray-500">
+  <p>Con vẫn cười, vẫn bi bô gọi… </p>
+  <ul class="default-list">
+      <li>Nhưng chưa đủ lớn để hiểu đó là ai. </li>
+      <li>Chưa đủ lâu để giữ lại một ký ức trọn vẹn. </li>
+    </ul>
+</div>
+<b>Và rồi một ngày, </b><br/>
+khi những đứa trẻ bắt đầu hiểu thế nào là yêu thương, là gia đình…  <br/>
+thì ông bà có thể đã không còn nữa.</p>
 
       <div class="text-center mb-8">
         <div class="flex justify-center py-6">
@@ -339,15 +366,34 @@ export const MAIN_SERVICES = [
         </p>
       </div>
 
-      <p class="mb-6">
-        <b>Ký Ức Sau Cùng & Còn Mãi</b> là gói lưu lại ký ức trọn vẹn cho những khoảnh khắc ta không thể níu giữ khi thời gian đang đếm ngược.<br/>
-        - <b class="text-orange-700">Dành cho những ông bà lớn tuổi,</b> đang bước những bước cuối cùng trên hành trình cuộc đời, khi từng phút giây bên người thân yêu đều trở nên vô giá.<br />
-        - <b class="text-orange-700">Cho những bậc cha mẹ, anh chị,</b> vẫn còn cháy bỏng khát vọng sống nhưng đang chạy đua với thời gian trước căn bệnh hiểm nghèo. <br/> 
-        - <b class="text-orange-700">Và cho những thiên thần nhỏ,</b> dù chỉ có mặt trên thế gian ngắn ngủi, nhưng đã để lại tình yêu và kỷ niệm không thể phai nhòa...
-        <br />
-        <br />
-      </p>
+      <b class="mb-6">
+       Hãy tưởng tượng… nhiều năm sau, khi con cháu đã lớn.
+      </b>
+      <p> Con đeo kính VR lên, và lần đầu tiên trong đời - được “gặp” ông bà của mình. </p>
 
+      <ul class="default-list">
+        <li>Không phải qua những lời kể từ người thân.</li>
+        <li>Không phải qua trí tưởng tượng từ những bức ảnh. </li>
+      </ul>
+      <br/>
+
+<p>Mà là ngồi xuống bên mâm cơm, đối diện ông bà như đang ở trước mắt - Trong một thế giới thực.</p>
+<b>Một bữa cơm vượt thời gian và không gian </b> 
+<ul class="default-list">
+        <li>Nơi khoảng cách thế hệ được thu hẹp.</li>
+        <li>Nơi lời dặn dò không còn bị đứt đoạn bởi năm tháng. </li>
+      </ul>
+      <br/>
+<p><b>Không chỉ con bạn. Mà chính bạn - cũng có thể quay lại những ngày ấy.</b>
+<br/>
+Ngồi lại bên mâm cơm có đủ ba thế hệ. <br/>
+Nghe lại những lời dặn dò tưởng chừng rất bình thường… nhưng sau này, không gì có thể thay thế. </p>
+
+<p>Đây không phải là một đoạn video.
+<br/>
+Đây là một cuộc gặp gỡ được giữ lại cho tương lai.
+<br/>
+<b style="color: #d35400;">Một cách để thời gian… không thể lấy đi hoàn toàn một con người.</b>
       <div class="text-center mb-8">
         <div class="flex justify-center py-6">
           <img 
@@ -368,10 +414,9 @@ export const MAIN_SERVICES = [
       </p>
 
       <div class="p-4 bg-background bg-[#913e1f17] my-2 text-gray-500">
-         - Những thước phim ghi lại các cuộc trò chuyện bình dị, giúp những đứa trẻ lớn lên <span class="font-bold">vẫn cảm nhận được hơi ấm và tình yêu của cha mẹ, 
-          ông bà hay anh chị em đã khuất.</span> <br/>
-         - Những nụ cười, ánh mắt đầy cảm xúc hay cái nắm tay cuối cùng, <span class="font-bold">tạo nên di sản tình yêu cho người ở lại.</span><br/>
-         - Những khoảnh khắc đặc biệt đó, sau này - dù có bao nhiêu tiền cũng không mua lại được. 
+         Là khoảnh khắc quý giá được đóng băng để chờ ngày gặp lại. 
+         Đây là lần gặp lại mà thời gian không thể cướp đi. 
+         Một lần ghi lại. Giá trị cho nhiều thế hệ.
       </div>
 
       <hr class="my-8"/>
