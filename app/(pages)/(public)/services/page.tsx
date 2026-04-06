@@ -105,7 +105,7 @@ export default function ServicesPage() {
                 </div>
                 <div className="w-full lg:w-1/2 space-y-4 text-left">
                   <h3 className="text-[#96694f] font-oswald uppercase text-lg font-extrabold">
-                    Chủ đề: {service.title}
+                    Lưu giữ: {service.title}
                   </h3>
                   <h2 className="text-4xl font-bold text-[#4c619f] font-oswald font-sans uppercase">
                     {service.subtitle}

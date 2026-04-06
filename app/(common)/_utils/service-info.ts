@@ -83,27 +83,54 @@ export const MAIN_SERVICES = [
   {
     id: 2,
     mappingId: BRIEF_SERVICES.at(2)?.id,
-    title: "Kỷ Niệm Tình Yêu - Con Cái",
-    subtitle: "Hạnh Phúc Trọn Vẹn",
+    title: "Ký ức 3D đầu đời cho con",
+    subtitle: "Tuổi thơ con... chỉ đến đúng 1 lần",
     description: `
-    Trong tình yêu, ngày cưới là một trong những sự kiện quan trọng nhất, không chỉ của đôi lứa mà còn là khởi đầu cho gia đình hạnh phúc. <br/> <br/>
-    <b>Hãy để chúng tôi giúp bạn lưu giữ lại:</b> 
-    <ul class="default-list">
-      <li>Từng giây phút hạnh phúc trong ngày trọng đại, những ánh mắt trao nhau cho đến những nụ cười rạng rỡ của bạn bè và người thân</li>
-      <li>Để các bạn được <b class="text-orange-700">"làm 1 vị khách"</b> trong chính đám cưới của mình khi xem lại dưới không gian 3D</li>
-      <li>Được thấy chính mình đứng trước cổng hoa, cùng nắm tay nhau vào lễ đường, cắt bánh, rót rượu,... ngay trước mắt.</li>
-    </ul><br/>
-    <b>Và hành trình tình yêu còn tiếp tục lớn lên qua từng bước chân của con cái</b>  <br/>
-     <ul class="default-list">
-      <li>Hãy tưởng tượng, nếu một ngày nào đó con cái bạn được nhìn thấy tận mắt đám cưới của chính cha mẹ mình</li>
-      <li>Và con bạn được nhìn lại hành trình lớn lên của bản thân – từ tiếng khóc chào đời, bước đi đầu tiên, đến những thành tựu nhỏ bé... </li>
-      <li>Sẽ là một <b class="text-orange-700">trải nghiệm kỳ diệu và lạ lùng</b>, giúp chúng thêm tự hào về tình yêu và tổ ấm của mình</li>
-      <li>Khi được nhìn lại 1 bằng không gian 3D có gia đình nhỏ trong đó, con bạn sẽ biết rằng tình yêu của bạn dành cho chúng đã bắt đầu ngay từ những ngày đầu tiên của cuộc đời</li>
-    </ul>`,
+    <div style="font-family: Arial, sans-serif; line-height: 1.7; color: #333; max-width: 720px;">
+  <p><strong>Hãy tưởng tượng:</strong></p>
+  <p>
+    Một ngày nào đó, con bạn đeo kính VR lên. <br>
+    Và lần đầu tiên trong đời, con không chỉ xem - mà thực sự được “trở về” tuổi thơ của chính mình.
+  </p>
+   <ul class="default-list">
+    <li> Con nhìn thấy căn phòng quen thuộc ngày bé </li>
+    <li> Nghe lại tiếng cười của chính mình </li>
+    <li> Thấy ông bà, ba mẹ của "ngày đó" - những phiên bản mà thời gian đã lặng lẽ mang đi</li>
+  </ul>
+  <br/>
+  <p>
+    Đó là một cảm giác…<br>
+    <strong>Mà chưa từng có thế hệ nào trước đây được trải nghiệm.</strong>
+  </p>
+  <ul class="default-list">
+    <li> Không phải qua lời kể </li>
+    <li> Không phải qua trí tưởng tượng </li>
+  </ul>
+  <p>
+    <strong>Mà là trực tiếp sống lại ký ức của chính mình.</strong>
+  </p>
+  <br>
+  <p>
+    Những bữa tiệc xa hoa, những món quà đắt tiền.
+  </p>
+  <p>
+    Cũng không bằng món quà…<br>
+    <strong style="color: #d35400;">
+      Mà chỉ thời gian mới TẠO RA — và công nghệ giúp bạn GIỮ LẠI.
+    </strong>
+  </p>
+  <br>
+  <p>
+    <strong>Một món quà <b>trong tương lai</b>.</strong><br>
+    Dành cho con.<br>
+    Và cũng dành cho chính bạn.
+  </p>
+
+</div>`,
     youtubeSrc: "https://www.youtube.com/embed/WDLEjh70vOM?si=iR7j9WhzmwwvM3p-",
     videoSrc: "/vids/nhin_lai_hanh_trinh_truong_thanh_cua_con.mp4",
     videoThumbnail: "/imgs/nhin_lai_hanh_trinh_truong_thanh_cua_con.png",
-    videoSrcTitle: `Lưu lại hành trình khôn lớn. Dành cho con "món quà" đặc biệt nhất`,
+    videoSrcTitle: `Cùng con lưu lại hành trình khôn lớn`,
     postFixUrl: SERVICE_POSTFIX_URLS.LOVE,
     fullDescription: `
     <h4 class="text-xl text-center text-gray-500 mb-6">
@@ -111,11 +138,84 @@ export const MAIN_SERVICES = [
     </h4>
 
     <div class="full-description text-lg max-w-3xl mx-auto">
-    <p class="text-lg text-gray-700 leading-relaxed mb-6">
-      Tình yêu không chỉ dừng lại ở những khoảnh khắc thăng hoa trong ngày cưới, mà còn tiếp tục lớn lên qua từng bước chân của con cái trong vòng tay cha mẹ. <br/>
-      <b>"Kỷ Niệm Tình Yêu - Con Cái"</b> là gói dịch vụ ghi lại không chỉ những giây phút hạnh phúc của đôi lứa 
-      mà còn những dấu ấn đáng nhớ trong hành trình nuôi dưỡng và trưởng thành của gia đình bạn.
+     <p class="text-lg text-gray-700 leading-relaxed mb-6"> 
+     Người ta vẫn hay nói rằng: <br />
+     <b> "Bạn chỉ có duy nhất một cơ hội để ngắm nhìn con mình còn bé nhỏ, vì những khoảnh khắc ấy trôi qua rất nhanh trước khi bạn kịp nhận ra." </b>
+    </div>
+
+   <div class="p-4 bg-background bg-[#913e1f17] my-2 text-gray-500">
+      Hôm nay con còn nằm gọn trong vòng tay bạn, <br />
+      Ngày mai đã lon ton chạy khắp nhà, <br />
+      Và rồi một ngày… bạn chợt nhận ra, đứa trẻ hôm ấy đã lớn từ lúc nào.
     </p>
+     </div>
+<div class="full-description text-lg max-w-3xl mx-auto">
+    <p class="text-lg text-gray-700 leading-relaxed mb-6">
+   <b> Nhưng… bạn có thể lưu giữ tất cả. </b>
+
+    <ul class="default-list">
+      <li>Không phải những bức ảnh đứng yên theo năm tháng.</li>
+      <li>Không phải vài đoạn video rồi cũng bị lãng quên trong bộ nhớ.</li>
+    </ul> <br />
+   <b class="text-orange-700"> Mà là cả một thế giới tuổi thơ - sống động, nguyên vẹn trong không gian 3D. </b> <br />
+   Nơi bạn có thể bước vào… <br />
+    <ul class="default-list">
+      <li>Khoảnh khắc con vừa chập chững đứng dậy - đôi chân nhỏ run run, ánh mắt ngây ngô nhìn bạn.</li>
+      <li>Ngồi xuống bên con trong bữa ăn đầu đời - nơi mọi thứ còn vụng về nhưng đầy ắp yêu thương.</li>
+      <li>Và rồi… đứng đó, lặng nhìn chính mình của những năm tháng ấy - đang ôm con vào lòng, gần đến mức bạn gần như có thể chạm được.</li>
+    </ul> 
+    </p>
+
+    <div class="flex justify-center py-6">
+      <img 
+        src="/imgs/nhin-lai-sinh-nhat-dau-tien-cua-chinh-minh.png" 
+        alt="Kỷ niệm tình yêu và con cái" 
+        class="w-full aspect-video xl:w-64 xl:h-40 object-cover rounded-lg shadow-md"
+      >
+    </div>
+
+    <p><strong>Hãy tưởng tượng:</strong></p>
+  <p>
+    Một ngày nào đó, con bạn đeo kính VR lên. <br>
+    Và lần đầu tiên trong đời, con không chỉ xem - mà thực sự được “trở về” tuổi thơ của chính mình.
+  </p>
+   <ul class="default-list">
+    <li> Bữa tiệc thôi nôi sinh nhật đầu đời </li>
+    <li> Con nhìn thấy căn phòng quen thuộc ngày bé </li>
+    <li> Nghe lại tiếng cười của chính mình </li>
+    <li> Thấy ông bà, ba mẹ của "ngày đó" - những phiên bản mà thời gian đã lặng lẽ mang đi</li>
+  </ul>
+  <br/>
+  <p>
+    Đó là một cảm giác…<br>
+    <strong>Mà chưa từng có thế hệ nào trước đây được trải nghiệm.</strong>
+  </p>
+  <ul class="default-list">
+    <li> Không phải qua lời kể </li>
+    <li> Không phải qua trí tưởng tượng </li>
+  </ul>
+  <p>
+    <strong>Mà là trực tiếp sống lại ký ức của chính mình.</strong>
+  </p>
+  <br>
+  <p>
+    Những bữa tiệc xa hoa, những món quà đắt tiền.
+  </p>
+  <p>
+    Cũng không bằng món quà…<br>
+    <strong style="color: #d35400;">
+      Mà chỉ thời gian mới TẠO RA — và công nghệ giúp bạn GIỮ LẠI.
+    </strong>
+  </p>
+  <br />
+  <p>
+    <strong>Một món quà <b>trong tương lai</b>.</strong><br>
+    Dành cho con.<br>
+    Và cũng dành cho chính bạn.
+  </p>
+  <br />
+  <hr />
+<br />
 
     <div class="flex justify-center py-6">
       <img 
@@ -124,35 +224,25 @@ export const MAIN_SERVICES = [
         class="w-full aspect-video xl:w-64 xl:h-40 object-cover rounded-lg shadow-md"
       >
     </div>
-
-    <b>Hãy để chúng tôi giúp bạn lưu giữ lại:</b> 
-    <ul class="default-list">
-      <li>Từng giây phút hạnh phúc trong ngày trọng đại, những ánh mắt trao nhau cho đến những nụ cười rạng rỡ của bạn bè và người thân</li>
-      <li>Để các bạn được <b class="text-orange-700">"làm 1 vị khách"</b> trong chính đám cưới của mình khi xem lại dưới không gian 3D</li>
-      <li>Được thấy chính mình đứng trước cổng hoa, cùng nắm tay nhau vào lễ đường, cắt bánh, rót rượu,... ngay trước mắt.</li>
-    </ul>
-    <br/>
-    <b>Và hành trình tình yêu còn tiếp tục lớn lên qua từng bước chân của con cái</b>  <br/>
+    <b>Hãy để chúng tôi giúp bạn lưu giữ lại:</b>  <br/>
      <ul class="default-list">
-      <li>Hãy tưởng tượng, nếu một ngày nào đó con cái bạn được nhìn thấy tận mắt đám cưới của chính cha mẹ mình</li>
-      <li>Và con bạn được nhìn lại hành trình lớn lên của bản thân – từ tiếng khóc chào đời, bước đi đầu tiên, đến những thành tựu nhỏ bé... </li>
-      <li>Sẽ là một <b class="text-orange-700">trải nghiệm kỳ diệu và lạ lùng</b>, giúp chúng thêm tự hào về tình yêu và tổ ấm của mình</li>
-      <li>Khi được nhìn lại 1 bằng không gian 3D có gia đình nhỏ trong đó, con bạn sẽ biết rằng tình yêu của bạn dành cho chúng đã bắt đầu ngay từ những ngày đầu tiên của cuộc đời</li>
+      <li>Hành trình tình yêu của cha mẹ tiếp tục lớn lên qua từng dấu ấn của con. </li>
+      <li>Những khoảnh khắc tưởng chừng rất bình thường… nhưng sau này lại trở thành điều quý giá nhất! </li>
+      <li>Sẽ là một <b class="text-orange-700">trải nghiệm kỳ diệu và lạ lùng</b>, giúp con thêm tự hào về tình yêu và tổ ấm của mình.</li>
+      <li>Khi được nhìn lại 1 bằng không gian 3D có gia đình nhỏ trong đó, con bạn sẽ biết rằng tình yêu của bạn dành con đã bắt đầu ngay từ những ngày đầu tiên của cuộc đời.</li>
     </ul>
 
-    <div class="video-container my-8 text-center">
-      <h4 class="text2xl !font-semibold text-gray-600 mb-4">
-        Lưu giữ những hành trình trưởng thành để thế hệ sau cảm nhận
-      </h4>
-      <iframe 
-        width="560" 
-        src="https://www.youtube.com/embed/WDLEjh70vOM?si=iR7j9WhzmwwvM3p-" 
-        title="Đám cưới và hành trình yêu thương" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen 
-        class="mx-auto rounded-lg shadow-md aspect-auto h=[200px] sm:h-[315px]">
-      </iframe>
+     <div class="text-center mb-8 mt-4">
+      <div class="flex justify-center px-6">
+        <img 
+          src="/imgs/con-duoc-xem-lai-ky-uc-cua-minh.png" 
+          alt="Hành trình lưu giữ kỷ niệm trưởng thành" 
+          class="!w-full h-auto object-cover rounded-lg shadow-md">
+      </div>
+
+      <p class="font-semibold text-gray-400">
+        - Sẽ là 1 trải nghiệm lạ lùng và kỳ diệu cho con bạn -
+      </p>
     </div>
 
     <p>
@@ -160,9 +250,7 @@ export const MAIN_SERVICES = [
       MyVR sẽ giúp bạn lưu giữ lại những khoảnh khắc vô giá ấy một cách chân thực nhất.
     </p>
 
-    <div class="p-4 bg-background bg-[#913e1f17] my-2 text-gray-500">
-     Vì người ta vẫn thường nói rằng: "Bạn chỉ có duy nhất một cơ hội để ngắm nhìn con mình còn bé nhỏ, vì những khoảnh khắc ấy trôi qua rất nhanh trước khi bạn kịp nhận ra."
-    </div>
+    
 
     <hr class="my-8"/>
 
@@ -178,19 +266,22 @@ export const MAIN_SERVICES = [
     <a href="/lien-he" target="_blank"><span class="bg-[#069a2b] hover:bg-[#0d9b31] font-semibold !text-white px-8 py-3 rounded transition duration-300 animate-fadeInUp">LIÊN HỆ MYVR</span></a>
     </div>
 
+ <div class="video-container my-8 text-center">
+      <iframe 
+        width="560" 
+        src="https://www.youtube.com/embed/WDLEjh70vOM?si=iR7j9WhzmwwvM3p-" 
+        title="Đám cưới và hành trình yêu thương" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen 
+        class="mx-auto rounded-lg shadow-md aspect-auto h=[200px] sm:h-[315px]">
+      </iframe>
 
-    <div class="text-center mb-8">
-      <div class="flex justify-center px-6">
-        <img 
-          src="/imgs/con-duoc-xem-lai-ky-uc-cua-minh.png" 
-          alt="Hành trình lưu giữ kỷ niệm trưởng thành" 
-          class="!w-full h-auto object-cover rounded-lg shadow-md">
-      </div>
-
-      <p class="font-semibold text-gray-400">
-        - Sẽ là 1 trải nghiệm cực kỳ lạ lùng và kỳ diệu cho con bạn -
-      </p>
+        <h4 class="text2xl !font-semibold text-gray-600 mt-4">
+        1 "món quà" vô giá cho tương lai
+      </h4>
     </div>
+   
 
     <p class="text-lg text-gray-700 leading-relaxed mb-6">
       Cuộc sống là một hành trình dài, và mỗi chặng đường đều có những khoảnh khắc quý giá. <br/>
@@ -206,8 +297,8 @@ export const MAIN_SERVICES = [
   {
     id: 0,
     mappingId: BRIEF_SERVICES.at(1)?.id,
-    title: "Ký Ức Sau Cùng & Còn Mãi",
-    subtitle: "Dịch Vụ Đặc Biệt Nhất",
+    title: "Kỷ niệm vô giá với ông bà, cha mẹ",
+    subtitle: "Những khoảnh khắc vượt thời gian & thế hệ",
     description: `
       Cuộc sống vốn dĩ vô thường, không ai biết trước được khi nào chúng ta hoặc những người thân yêu của mình sẽ phải rời xa thế giới này... <br/><br/>
       <b>Dịch vụ này dành riêng cho những hoàn cảnh đặc biệt:</b> <br/>
@@ -328,8 +419,8 @@ export const MAIN_SERVICES = [
   {
     id: 1,
     mappingId: BRIEF_SERVICES.at(3)?.id,
-    title: "Gia Đình Và Những Người Thân Yêu",
-    subtitle: "Yêu Thương Đong Đầy",
+    title: "Sự kết nối tình thân & gia đình",
+    subtitle: "Những cuộc gặp gỡ không còn bị giới hạn bởi không gian",
     description: `Gia đình là nơi khởi nguồn của tình yêu thương và những kỷ niệm đẹp. <br/><br/>
        <b>Đó có thể là những kỷ niệm vui:</b>
       <ul class="default-list">
