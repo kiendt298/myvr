@@ -181,7 +181,7 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-6 text-gray-800">Khám phá MyVR</h2>
         <div className="flex flex-col sm:flex-row sm:justify-center md:max-xl:grid md:max-xl:grid-cols-2 gap-4">
           <iframe
-            className="xl:w-1/4 md:max-xl:mx-auto rounded-lg aspect-video"
+            className="xl:w-1/3 md:max-xl:mx-auto rounded-lg aspect-video"
             height={isMobile ? undefined : "220px"}
             src="https://www.youtube.com/embed/WDLEjh70vOM?si=iR7j9WhzmwwvM3p-"
             title="YouTube video player"
@@ -191,7 +191,7 @@ export default function Home() {
           ></iframe>
 
           <iframe
-            className="xl:w-1/4 md:max-xl:mx-auto rounded-lg aspect-video"
+            className="xl:w-1/3 md:max-xl:mx-auto rounded-lg aspect-video"
             height={isMobile ? undefined : "220px"}
             src="https://www.youtube.com/embed/52vtguDb5-c?si=b2E7k8Iq0DOAiU-N"
             title="YouTube video player"
@@ -201,7 +201,7 @@ export default function Home() {
           ></iframe>
 
           <iframe
-            className="xl:w-1/4 md:max-xl:mx-auto rounded-lg aspect-video"
+            className="xl:w-1/3 md:max-xl:mx-auto rounded-lg aspect-video"
             height={isMobile ? undefined : "220px"}
             src="https://www.youtube.com/embed/-8vHG7ck40o?si=Wh_4v7BDPP2YAFWG"
             title="YouTube video player"
@@ -210,15 +210,15 @@ export default function Home() {
             allowFullScreen
           ></iframe>
 
-          <iframe
-            className="xl:w-1/4 md:max-xl:mx-auto rounded-lg aspect-video"
+          {/* <iframe
+            className="xl:w-1/3 md:max-xl:mx-auto rounded-lg aspect-video"
             height={isMobile ? undefined : "220px"}
             src="https://www.youtube.com/embed/ixOBtUGKYio?si=p540486ntCJdy2R8"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
-          ></iframe>
+          ></iframe> */}
         </div>
       </section>
 
