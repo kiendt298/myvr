@@ -179,12 +179,20 @@ export default function Contact() {
           <p className="mb-4 text-gray-700">
             MyVR là nền tảng hỗ trợ quay video 3D thực tế ảo. Giúp bạn lưu giữ
             những khoảnh khắc chân thực nhất, như được nhìn lại tận mắt không
-            gian ký ức/kỷ niệm bạn đã trải qua 1 lần nữa.
+            gian ký ức - kỷ niệm bạn đã trải qua 1 lần nữa.
           </p>
         </div>
 
         {/* Images with titles */}
-        <div className="grid grid-cols-2 gap-4">
+        <div className="lg:w-full">
+          <img
+            src="/imgs/myvr-office-intro.png"
+            alt="Ví dụ về video Thực tế ảo"
+            className="w-full aspect-video rounded-lg object-cover shadow-md"
+          />
+        </div>
+        <br />
+        <div className="grid grid-cols-3 gap-4">
           {BRIEF_SERVICES.slice(1).map((item) => {
             return (
               <div className="text-center" key={item.id}>

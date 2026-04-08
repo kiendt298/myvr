@@ -55,20 +55,20 @@ export const BRIEF_SERVICES = [
   },
   {
     id: "brief-service-1",
-    title: "Ký Ức Sau Cùng & Còn Mãi",
+    title: "Ký Ức Với Ông Bà, Cha Mẹ",
     imgSrc: "/imgs/bua-com-vuot-thoi-gian-va-khong-gian.png",
     postFixUrl: SERVICE_POSTFIX_URLS.SPEICAL,
   },
   {
     id: "brief-service-2",
-    title: "Lưu Giữ Tình Yêu & Hành Trình Trưởng Thành",
+    title: "Lưu Giữ Hành Trình Của Con",
     imgSrc: "/imgs/luu-giu-ky-uc-cho-con.png",
     postFixUrl: SERVICE_POSTFIX_URLS.LOVE,
   },
   {
     id: "brief-service-3",
-    title: "Khoảnh khắc bên gia đình, người thân",
-    imgSrc: "/imgs/khoanh-khac-ben-gia-dinh.png",
+    title: "Khoảnh Khắc Đoàn Viên Gia Đình",
+    imgSrc: "/imgs/quay-vr-gia-dinh.png",
     postFixUrl: SERVICE_POSTFIX_URLS.FAMILY,
   },
   // {
