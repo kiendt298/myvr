@@ -13,6 +13,7 @@ import SubmitButtonWrapper from "../Wrappers/SubmitButtonWrapper";
 import { toast } from "react-toastify";
 import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 import { GoogleReCaptchaActionEnum } from "../../_utils/enums";
+import ZaloContactButton from "../ZaloContactButton";
 
 interface ContactFormProps {
   selectedPackage?: string;
@@ -120,6 +121,29 @@ export default function ContactForm({
             {BRIEF_SERVICES.find((s) => s.id === selectedPackage)?.title}
           </b>
         </p>
+        <hr />
+        <label className="block mt-4 text-gray-700 font-semibold">
+          Tư vấn nhanh:
+        </label>
+        <ZaloContactButton
+          phone="0848022993"
+          message="Tôi muốn tư vấn trải nghiệm MyVR"
+        />
+        <br />
+        <div className="relative my-6">
+          <div className="h-px bg-gray-300 w-full" />
+          <span
+            className="
+              absolute left-1/2 top-1/2
+              -translate-x-1/2 -translate-y-1/2
+              bg-white px-3
+              font-bold text-orange-800
+              uppercase tracking-wide whitespace-nowrap
+            "
+          >
+            Hoặc điền Form này
+          </span>
+        </div>
         <label className="block mt-4 text-gray-700 font-semibold">
           Tên:
           <input
@@ -179,6 +203,7 @@ export default function ContactForm({
         >
           Gửi ngay
         </SubmitButtonWrapper>
+
         {isPopup && (
           <button
             className="mt-4 bg-gray-300 text-gray-700 py-2 px-4 rounded font-bold"

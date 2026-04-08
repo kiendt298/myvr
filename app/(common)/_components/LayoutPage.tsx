@@ -28,6 +28,7 @@ import {
 import { signOut } from "next-auth/react";
 import { BRIEF_SERVICES } from "../_utils/service-info";
 import { AppSidebar } from "./Sidebar/AppSidebar";
+import ZaloFloatButton from "./ZaloFloatButton";
 
 interface LayoutProps {
   children: ReactNode;
@@ -362,6 +363,10 @@ const Layout: React.FC<LayoutProps> = ({ children, loggedIn, userInfo }) => {
           </div>
         </div>
       </footer>
+      <ZaloFloatButton
+        phone="0848022993"
+        message="Tôi muốn tư vấn trải nghiệm VR"
+      />
     </div>
   );
 };

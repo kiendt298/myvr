@@ -22,6 +22,7 @@ import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 import SubmitButtonWrapper from "@/app/(common)/_components/Wrappers/SubmitButtonWrapper";
 import Link from "next/link";
 import { VN_REWRITE_SEGMENT_URLS } from "@/app/(common)/_utils/rewrite-urls";
+import ZaloContactButton from "@/app/(common)/_components/ZaloContactButton";
 
 interface FormData {
   subject: string;
@@ -216,6 +217,30 @@ export default function Contact() {
             <h2 className="text-2xl font-semibold mb-4 text-blue-700">
               LIÊN HỆ{" "}
             </h2>
+            <hr />
+            <label className="block mt-4 text-gray-700 font-semibold">
+              Tư vấn nhanh:
+            </label>
+            <ZaloContactButton
+              phone="0848022993"
+              message="Tôi muốn tư vấn trải nghiệm MyVR"
+            />
+            <br />
+
+            <div className="relative my-6">
+              <div className="h-px bg-gray-300 w-full" />
+              <span
+                className="
+                            absolute left-1/2 top-1/2
+                            -translate-x-1/2 -translate-y-1/2
+                            bg-white px-3
+                            font-bold text-orange-800
+                            uppercase tracking-wide whitespace-nowrap
+                          "
+              >
+                Hoặc điền Form này
+              </span>
+            </div>
             <form action={handleSubmit}>
               <div className="mb-4">
                 <label className="block mb-2 font-semibold text-gray-500">
