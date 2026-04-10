@@ -83,11 +83,19 @@ export default function Home() {
       <section className="py-8 px-4 bg-gradient-to-b from-gray-100 via-[#e7c7b9] to-gray-100">
         <div className="flex flex-col lg:flex-row justify-center gap-8">
           <div className="lg:w-1/2">
-            <img
+            {/* <img
               src="/imgs/vi_du_ve_video_thuc_te_ao.jpg"
               alt="Ví dụ về video Thực tế ảo"
               className="w-full aspect-video rounded-lg object-cover shadow-md"
-            />
+            /> */}
+            <iframe
+              className="w-full rounded-lg aspect-video"
+              src="https://www.youtube.com/embed/NyeINqkeZe8?si=hw3JFSjgVOU9OaV7"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
           </div>
           <div className="lg:w-1/2">
             <h2 className="text-3xl font-bold mb-6 text-gray-800">
