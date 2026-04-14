@@ -10,7 +10,7 @@ import PremiumInfo from "../database/models/PremiumInfo";
 import Quotation from "../database/models/Quotation";
 import { cache } from "react";
 import VRtubeVideo, { IVRtubeVideo } from "../database/models/VRtubeVideo";
-import { getCloudFrontSignedURl } from "./cloudfront";
+import { getCloudFrontSignedURl } from "@/app/(common)/_helpers/cloudfront";
 
 export async function getUsersBySearchParams({
   pagination,

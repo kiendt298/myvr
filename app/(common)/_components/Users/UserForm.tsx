@@ -431,7 +431,7 @@ export default function UserForm({ userDetail }: { userDetail: IUser }) {
                   onChange={handleChange}
                   className="w-full px-4 py-2 border border-gray-400 rounded"
                 >
-                  {Object.values(
+                  {Object.keys(
                     Object.fromEntries(Object.entries(CreatorRoleType)),
                   ).map((item) => {
                     return <option value={item}>{item}</option>;

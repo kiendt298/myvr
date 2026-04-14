@@ -3,6 +3,7 @@ import { ReadonlyURLSearchParams } from "next/navigation";
 import { twMerge } from "tailwind-merge";
 import slugify from "slugify";
 
+
 export interface ISearchParams {
   page?: number | string;
   size?: number | string;
@@ -52,3 +53,4 @@ export function slugifyTransform(str: string) {
     locale: "vi",
   });
 }
+

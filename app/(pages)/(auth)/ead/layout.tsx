@@ -1,7 +1,7 @@
-import LoadingOrUnauthenticated from "@/app/(common)/_components/LoadingOrUnauthenticated";
 import { CreatorRoleType, IUser } from "@/app/(server)/database/models/User";
 import { options } from "@/app/api/auth/[...nextauth]/options";
 import { getServerSession } from "next-auth";
+import { redirect } from "next/navigation";
 import { ReactNode } from "react";
 
 export default async function EADLayout({
@@ -14,8 +14,9 @@ export default async function EADLayout({
     !session ||
     !session.user ||
     (session.user as IUser).role !== CreatorRoleType.ADMIN
-  )
-    return <LoadingOrUnauthenticated status="unauthenticated" />;
+  ) {
+    redirect("/dang-nhap");
+  }
 
   return <>{children}</>;
 }

@@ -40,7 +40,7 @@ function LayoutContent({ children }: { children: React.ReactNode }) {
           content="MyVR là một nền tảng được thiết kế để lưu giữ ký ức trong không gian thực tế ảo 3D. Dựa trên công nghệ WebXR, cho phép bạn lưu trữ và hồi tưởng những kỷ niệm quý giá của mình trong môi trường VR chân thực nhất."
         />
         <meta name="language" content="vietnamese" />
-        <meta http-equiv="content-language" content="vi" />
+        <meta httpEquiv="content-language" content="vi" />
 
         <link rel="alternate" href="https://myvr.vn/" />
         <link rel="canonical" href="https://myvr.vn/" />

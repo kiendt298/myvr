@@ -3,6 +3,13 @@ import { IPremiumInfo } from "./PremiumInfo";
 import { IQuotation } from "./Quotation";
 import { IVRtubeVideo } from "./VRtubeVideo";
 
+export enum RoleLevel {
+  GUEST = '0',
+  USER = '1',
+  VIP = '2',
+  ADMIN = '4', // gap for future MODERATOR(3)
+}
+
 export enum CreatorStatus {
   PUBLIC = "public",
   PENDING = "pending",
@@ -10,8 +17,8 @@ export enum CreatorStatus {
 }
 
 export enum CreatorRoleType {
-  ADMIN = "admin",
-  USER = "user",
+  ADMIN = RoleLevel.ADMIN,
+  USER = RoleLevel.USER,
 }
 
 export interface IUser extends Document {
